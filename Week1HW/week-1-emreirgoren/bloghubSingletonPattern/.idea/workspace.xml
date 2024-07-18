@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="05dddeba-ac75-4b28-8e15-73a95986b76f" name="Changes" comment="Add Singleton Pattern">
+      <change beforePath="$PROJECT_DIR$/../bloghubFactoryPattern/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../bloghubFactoryPattern/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bloghubFactoryPattern/src/main/java/factory/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../bloghubFactoryPattern/src/main/java/factory/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bloghubFactoryPattern/target/classes/factory/IService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bloghubFactoryPattern/target/classes/factory/IService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bloghubFactoryPattern/target/classes/factory/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bloghubFactoryPattern/target/classes/factory/ServiceFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ixiyXUJm1kKQk0mLcf3gmjqTat" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/canem/OneDrive/Masaüstü/FtBootcamp/bloghub&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="bloghubSingletonPattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="bloghubSingletonPattern" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05dddeba-ac75-4b28-8e15-73a95986b76f" name="Changes" comment="" />
+      <created>1720438885190</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720438885190</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add Singleton Pattern">
+      <option name="closed" value="true" />
+      <created>1720958241772</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720958241772</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Singleton Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Singleton Pattern" />
+  </component>
+</project>
