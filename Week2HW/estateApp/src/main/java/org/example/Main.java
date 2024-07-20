@@ -1,6 +1,9 @@
 package org.example;
 
+import org.example.model.Estate;
 import org.example.service.EstateService;
+
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,10 +31,16 @@ public class Main {
         int allSummeryM2 = estateService.getAllSummeryM2();
         System.out.println("All summery m2: " + allSummeryM2);
 
-        double allEstateM2Average = estateService.getAllEstateM2Averege();
+        double allEstateM2Average = estateService.getAllEstateM2Average();
         System.out.println("All estate m2 averege: " + allEstateM2Average);
 
-        System.out.println(estateService.filterEstatesByRoomsAndHalls(2,4));
+        List<Estate> estateList = estateService.filterEstatesByRoomsAndHalls(2,3);
+        estateList.forEach(System.out::println);
+
+        if(estateList.isEmpty()){
+            System.out.println("Aranılan kriterde ev bulunamadı.");
+        }
+
 
     }
 }

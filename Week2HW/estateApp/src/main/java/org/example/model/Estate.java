@@ -54,4 +54,15 @@ public class Estate {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Estate{" +
+                "name='" + name + '\'' +
+                ", m2=" + m2 +
+                ", numOfRoom=" + numOfRoom +
+                ", numOfHall=" + numOfHall +
+                ", price=" + price +
+                '}';
+    }
 }

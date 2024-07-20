@@ -58,7 +58,7 @@ public class EstateService {
                 .sum();
     }
 
-    public double getAllEstateM2Averege() {
+    public double getAllEstateM2Average() {
         return (getAllHouseM2()+getAllVillaM2()+getAllSummeryM2()) /
                 (estateRepository.getHouseList().size()+estateRepository.getVillaList().size()+estateRepository.getSummeryList().size());
     }
@@ -71,7 +71,7 @@ public class EstateService {
     }
 
     public List<Estate> filterEstatesByRoomsAndHalls(int minRooms, int minHalls) {
-        List<Estate> estateList = new ArrayList<>(getAllEstates());  // Convert immutable list to mutable list
+        List<Estate> estateList = new ArrayList<>(getAllEstates());
         return estateList.stream()
                 .filter(estate -> estate.getNumOfRoom() >= minRooms && estate.getNumOfHall() >= minHalls)
                 .collect(Collectors.toList());

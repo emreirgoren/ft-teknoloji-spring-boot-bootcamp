@@ -1,14 +1,11 @@
 package org.example.repository;
 
-import org.example.model.Estate;
 import org.example.model.House;
 import org.example.model.Summery;
 import org.example.model.Villa;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class EstateRepository {
 
@@ -40,12 +37,5 @@ public class EstateRepository {
     public List<Summery> getSummeryList() {
         return summeryList;
     }
-/*
-    public List<Estate> getEstateList() {
-        return Stream.concat(
-                Stream.concat(houseList.stream(), villaList.stream()),
-                summeryList.stream()
-        ).collect(Collectors.toList());
-    }*/
 
 }
