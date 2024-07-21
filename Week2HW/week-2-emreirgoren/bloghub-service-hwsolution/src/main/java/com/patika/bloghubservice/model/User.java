@@ -1,6 +1,8 @@
 package com.patika.bloghubservice.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.patika.bloghubservice.model.enums.StatusType;
 import com.patika.bloghubservice.model.enums.UserType;
 import lombok.AccessLevel;
@@ -26,6 +28,7 @@ public class User {
 
     @JsonBackReference
     private List<Blog> blogList;
+
     private List<BlogTag> followedTagList = new ArrayList<>();
 
     public User(String email, String password) {

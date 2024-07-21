@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b0e57a6-e46c-41e5-9658-f83e1b49c7b9" name="Changes" comment="Add generic response and exception handler mechanism to Email and Payment services." />
+    <list default="true" id="3b0e57a6-e46c-41e5-9658-f83e1b49c7b9" name="Changes" comment="Add generic response and exception handler mechanism to Email and Payment services.">
+      <change beforePath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/dto/response/BlogResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/dto/response/BlogResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/model/Blog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/repository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/repository/BlogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/service/BlogService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,23 +37,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BloghubEmailServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BloghubPaymentServiceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BloghubServiceApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.All in bloghub-email-service (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in bloghub-email-service (2).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in bloghub-email-service.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in bloghub-service.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in week-2-emreirgoren (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BloghubEmailServiceApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/canem/OneDrive/Masaüstü/Week2HW/week-2-emreirgoren&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BloghubEmailServiceApplication.executor": "Run",
+    "Application.BloghubPaymentServiceApplication.executor": "Run",
+    "Application.BloghubServiceApplication.executor": "Debug",
+    "JUnit.All in bloghub-email-service (1).executor": "Run",
+    "JUnit.All in bloghub-email-service (2).executor": "Run",
+    "JUnit.All in bloghub-email-service.executor": "Run",
+    "JUnit.All in bloghub-service.executor": "Run",
+    "JUnit.All in week-2-emreirgoren (1).executor": "Run",
+    "JUnit.BloghubEmailServiceApplicationTests.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/canem/OneDrive/Masaüstü/Week2HW/week-2-emreirgoren"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.patika.bloghubservice.exception" />
@@ -57,7 +63,7 @@
       <recent name="C:\Users\canem\OneDrive\Masaüstü\Week2HW\week-2-emreirgoren\bloghub-service-hwsolution\src\main\resources\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BloghubServiceApplication">
+  <component name="RunManager" selected="Application.BloghubEmailServiceApplication">
     <configuration name="BloghubEmailServiceApplication" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.patika.bloghubemailservice.BloghubEmailServiceApplication" />
       <module name="bloghub-email-service" />
@@ -134,9 +140,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BloghubEmailServiceApplication" />
         <item itemvalue="Application.BloghubServiceApplication" />
         <item itemvalue="Application.BloghubPaymentServiceApplication" />
-        <item itemvalue="Application.BloghubEmailServiceApplication" />
         <item itemvalue="JUnit.BloghubEmailServiceApplicationTests" />
         <item itemvalue="JUnit.All in bloghub-email-service (2)" />
       </list>

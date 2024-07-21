@@ -18,6 +18,7 @@ import org.springframework.stereotype.Service;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
@@ -103,21 +104,33 @@ public class BlogService {
 
     public BlogResponse likeBlog(String title, String email) {
 
-        Blog blog = getBlogByTitle(title);
+        Optional<Blog> foundBlog = blogRepository.findByTitle(title);
 
-        if (blog.getLikeCount() == 50) {
+        if(foundBlog.isEmpty()){
+            throw new BlogNotFoundException();
+        }
+
+        Optional<User> foundUser = userRepository.findByEmail(email);
+
+        if(foundUser.isEmpty()){
+            throw new UserNotFoundException();
+        }
+
+        if(foundBlog.get().getLikeCount1().isEmpty() || foundBlog.get().getLikeCount1().get(foundUser.get().getEmail()) == null){
+            foundBlog.get().getLikeCount1().put(foundUser.get().getEmail(),0);
+        }
+        Integer likeCount = foundBlog.get().getLikeCount1().get(foundUser.get().getEmail());
+
+        if(likeCount >= 50 ){
             throw new LikeLimitExceededException();
         }
-        blog.setLikeCount(blog.getLikeCount() + 1);
-        BlogResponse blogResponse = BlogResponse.builder()
-                .title(blog.getTitle())
-                .text(blog.getText())
-                .createdDateTime(blog.getCreatedDate())
-                .blogStatus(blog.getBlogStatus())
-                .likeCount(blog.getLikeCount())
-                .build();
-        return blogResponse;
+        foundBlog.get().getLikeCount1().put(foundUser.get().getEmail(),likeCount+1);
 
+        return BlogResponse.builder()
+                .title(foundBlog.get().getTitle())
+                .text(foundBlog.get().getText())
+                .likeCount1(foundBlog.get().getLikeCount1())
+                .build();
     }
 
     public Long getLikeCountByTitle(String title) {

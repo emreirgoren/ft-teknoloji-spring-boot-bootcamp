@@ -7,7 +7,9 @@ import java.awt.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Blog {
 
@@ -22,6 +24,9 @@ public class Blog {
     private List<BlogComment> blogCommentList = new ArrayList<>();
     private byte[] imageBytes;
     private String imageURL;
+
+    @JsonBackReference
+    private Map<String,Integer> likeCount1 = new HashMap<>();
 
     public Blog(String title, String text, User user) {
         this.title = title;
@@ -75,7 +80,6 @@ public class Blog {
     public Long getLikeCount() {
         return likeCount;
     }
-
     public void setLikeCount(Long likeCount) {
         this.likeCount = likeCount;
     }
@@ -102,6 +106,14 @@ public class Blog {
 
     public void setImageURL(String imageURL) {
         this.imageURL = imageURL;
+    }
+
+    public Map<String, Integer> getLikeCount1() {
+        return likeCount1;
+    }
+
+    public void setLikeCount1(Map<String, Integer> likeCount1) {
+        this.likeCount1 = likeCount1;
     }
 
     @Override

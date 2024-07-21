@@ -7,7 +7,7 @@ Her işlemin bir sonraki işlemi beklemesidir. Bu iletişimde işlemlerin bir ç
 İşlemlerin bir önceki işlemleri beklememesi ve çıktıya ihtiyaç duymaksızın çalışabilmesidir. Bu yüzden bu yöntem senkron iletişime göre çok daha hızlı ve kararlıdır.
 
 ## RabbitMQ ve Kafka arasındaki farkları araştırın?
-
+RabbitMQ'da mesajlar iletilir ve mesajın iletilip iletilmediği izlenir. Kafka'da ise mesajlar iletilir ancak iletilip iletilmediğine bakılmaksızın mesajlar kuyruk şeklinde saklanır.
 
 ## Docker ve Virtual Machine nedir?
 
@@ -33,6 +33,21 @@ docker run --name yei-postgres -e POSTGRES_PASSWORD************* -d postgres
 
 
 ## Docker komutlarını örneklerle açıklayın.
+docker ps --> Çalışan container'ları gösterir.
+
+docker ps -a --> Çalışan ve durdurulan containerları gösterir.
+
+docker run --> Yeni container oluşturup başlatma.
+
+docker start --> Contariner başlatma.
+
+docker stop --> Contariner durdurma.
+
+docker restart --> Container yeniden başlatma.
+
+docker rm --> container silme.
+
+docker exec --> Çalışan container komut çalıştırma.
 
 
 ## Microservice ve Monotlith mimarilerini kıyaslayın.
@@ -44,10 +59,10 @@ Monolith mimari projenin tek bir servis ve veritabanı üzerinden yürütülmesi
 Api Gateway kullanıcıdan gelen endpointlerin hangi servise gideceğini söyleyen yapılardır. Projede gelen isteğin UserService yada BlogService gitmesini belirleyen yapıdır.
 
 ### Service Discovery
-
+Service discovery microservice mimarisinde servislerin birbirleri ile iletişim kurmasını sağlayan yapılardır.
 
 ### Load Balancer 
-
+Modern mimarilerde servislere gelen yükü dağıtarak performans arttırmayı planlayan yapılardır.
 
 ## BlogHub-service uygulamasına aşağıdaki özellikleri ekleyin. (40 PUAN)
 • Kullanıcı şifresini değiştiren endpointi yazın. (Min:6 max 12 karakter)

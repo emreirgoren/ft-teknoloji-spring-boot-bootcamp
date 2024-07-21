@@ -1,12 +1,16 @@
 package com.patika.bloghubservice.dto.response;
 
 import com.patika.bloghubservice.model.BlogComment;
+import com.patika.bloghubservice.model.User;
 import com.patika.bloghubservice.model.enums.BlogStatus;
 import lombok.*;
 
+import java.time.Instant;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @Getter
 @Setter
@@ -23,5 +27,6 @@ public class BlogResponse {
     private List<BlogCommentResponse> blogCommentList = new ArrayList<>();
     private byte[] imageBytes;
     private String imageURL;
+    private Map<String, Integer> likeCount1= new HashMap<>();
 
 }
