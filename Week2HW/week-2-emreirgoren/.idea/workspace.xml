@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b0e57a6-e46c-41e5-9658-f83e1b49c7b9" name="Changes" comment="Add generic response and exception handler mechanism to Email and Payment services.">
-      <change beforePath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/dto/response/BlogResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/dto/response/BlogResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/model/Blog.java" beforeDir="false" afterPath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/model/Blog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/repository/BlogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/repository/BlogRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/bloghub-service-hwsolution/src/main/java/com/patika/bloghubservice/service/BlogService.java" afterDir="false" />
+    <list default="true" id="3b0e57a6-e46c-41e5-9658-f83e1b49c7b9" name="Changes" comment="Added exception and response classes.">
+      <change beforePath="$PROJECT_DIR$/../estateApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../estateApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/canem/OneDrive/Masaüstü/Week2HW/week-2-emreirgoren"
+    "last_opened_file_path": "C:/Users/canem/OneDrive/Masaüstü/MyGithubHW/ft-teknoloji-spring-boot-bootcamp"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -220,7 +218,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721308002702</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fixed likeBlog method.">
+      <option name="closed" value="true" />
+      <created>1721581777237</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1721581777237</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added exception and response classes.">
+      <option name="closed" value="true" />
+      <created>1721581944064</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721581944064</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,7 +244,9 @@
     <MESSAGE value="Added save image endpoint." />
     <MESSAGE value="Added only approved users can publish blogs and exception." />
     <MESSAGE value="Add generic response and exception handler mechanism to Email and Payment services." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add generic response and exception handler mechanism to Email and Payment services." />
+    <MESSAGE value="Fixed likeBlog method." />
+    <MESSAGE value="Added exception and response classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exception and response classes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

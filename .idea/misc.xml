@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Week3/week-2-emreirgoren/bloghub-email-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Week3/week-2-emreirgoren/bloghub-payment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Week3/week-2-emreirgoren/bloghub-service-hwsolution/pom.xml" />
+        <option value="$PROJECT_DIR$/Week1HW/week-1-emreirgoren/bloghub-v2/pom.xml" />
+        <option value="$PROJECT_DIR$/Week1HW/week-1-emreirgoren/shoppingApi/pom.xml" />
+        <option value="$PROJECT_DIR$/Week1HW/week-1-emreirgoren/bloghubFactoryPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/Week1HW/week-1-emreirgoren/bloghubSingletonPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/Week2HW/estateApp/pom.xml" />
+        <option value="$PROJECT_DIR$/Week2HW/week-2-emreirgoren/bloghub-email-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Week2HW/week-2-emreirgoren/bloghub-payment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/Week2HW/week-2-emreirgoren/bloghub-service-hwsolution/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
