@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b0e57a6-e46c-41e5-9658-f83e1b49c7b9" name="Changes" comment="Added exception and response classes.">
-      <change beforePath="$PROJECT_DIR$/../estateApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../estateApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,23 +33,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BloghubEmailServiceApplication.executor": "Run",
-    "Application.BloghubPaymentServiceApplication.executor": "Run",
-    "Application.BloghubServiceApplication.executor": "Debug",
-    "JUnit.All in bloghub-email-service (1).executor": "Run",
-    "JUnit.All in bloghub-email-service (2).executor": "Run",
-    "JUnit.All in bloghub-email-service.executor": "Run",
-    "JUnit.All in bloghub-service.executor": "Run",
-    "JUnit.All in week-2-emreirgoren (1).executor": "Run",
-    "JUnit.BloghubEmailServiceApplicationTests.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/canem/OneDrive/Masaüstü/MyGithubHW/ft-teknoloji-spring-boot-bootcamp"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BloghubEmailServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BloghubPaymentServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BloghubServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.All in bloghub-email-service (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in bloghub-email-service (2).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in bloghub-email-service.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in bloghub-service.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in week-2-emreirgoren (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BloghubEmailServiceApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/canem/OneDrive/Masaüstü/MyGithubHW/ft-teknoloji-spring-boot-bootcamp&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.patika.bloghubservice.exception" />
